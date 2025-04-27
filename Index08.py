@@ -6,5 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    i=0
+    while i<5 :
+        if s[i]=='*' :
+            return i
+        else :
+            return False
+    return i
         
