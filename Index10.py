@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    i = 0
+    sum = 0
+    while i < 5:
+        if s[i].isdigit():
+            sum += int(s[i])
+        i += 1
+    return  sum
