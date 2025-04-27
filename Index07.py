@@ -6,4 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    i=0
+    while i<len(n) :
+        if i==n :
+            return s[i]
+        else :
+            return False
+    i+=1
+    return s[i]
